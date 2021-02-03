@@ -1,5 +1,7 @@
 # game.py
 
+import random 
+
 print("Rock, Paper, Scissors, Shoot!")
 
 # Processing User Inputs 
@@ -10,6 +12,7 @@ print("USER SAYS...", user_choice)
 # Validating User Inputs 
 
 valid_options = ["rock", "paper", "scissors"]
+
 if user_choice in valid_options:
     print("VALID")
 else:
@@ -51,14 +54,14 @@ else:
 
 # Displaying Results 
 # 
-# -------------------
-# Welcome 'Player One' to my Rock-Paper-Scissors game...
-# -------------------
-# Please choose either 'rock', 'paper', or 'scissors': rock
-# You chose: 'rock'
-# The computer chose: 'paper'
-# -------------------
-# Oh, the computer won. It's ok.
-# -------------------
-# Thanks for playing. Please play again!
+-------------------
+ Welcome 'Player One' to my Rock-Paper-Scissors game...
+ -------------------
+ Please choose either 'rock', 'paper', or 'scissors': rock
+ You chose: 'rock'
+ The computer chose: 'paper'
+ -------------------
+ Oh, the computer won. It's ok.
+  -------------------
+ Thanks for playing. Please play again!
 
